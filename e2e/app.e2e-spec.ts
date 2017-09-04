@@ -1,14 +1,14 @@
-import { CliStablePage } from './app.po';
+import { SbAdminCliUpdatePage } from './app.po';
 
-describe('cli-stable App', () => {
-  let page: CliStablePage;
+describe('sb-admin-cli-update App', () => {
+  let page: SbAdminCliUpdatePage;
 
   beforeEach(() => {
-    page = new CliStablePage();
+    page = new SbAdminCliUpdatePage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!!');
   });
 });
