@@ -1,3 +1,8 @@
+https://travis-ci.org/bjakubiak/sb-admin-angular.svg?branch=master
+[![Build Status](https://travis-ci.org/bjakubiak/sb-admin-angular.svg?branch=master)](https://travis-ci.org/bjakubiak/sb-admin-angular)
+[![Dependency Status](https://david-dm.org/bjakubiak/sb-admin-angular.svg)](https://david-dm.org/bjakubiak/sb-admin-angular)
+[![devDependency Status](https://david-dm.org/bjakubiak/sb-admin-angular/dev-status.svg)](https://david-dm.org/bjakubiak/sb-admin-angular#info=devDependencies)
+
 # SB Admin in Angular
 
 This is fork of https://github.com/bjakubiak/SB-Admin-BS4-Angular-4 - repository created from https://github.com/start-angular/SB-Admin-BS4-Angular-4 to ease the pain of merges from that upstream.
