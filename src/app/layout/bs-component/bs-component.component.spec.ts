@@ -2,6 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { BsComponentComponent } from './bs-component.component';
 import {
@@ -31,7 +32,8 @@ describe('BsComponentComponent', () => {
         FormsModule,
         ReactiveFormsModule,
         NgbModule.forRoot(),
-        PageHeaderModule
+        PageHeaderModule,
+        BrowserAnimationsModule
       ],
       declarations: [
         BsComponentComponent,

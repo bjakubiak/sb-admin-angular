@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ChartsModule as Ng2Charts } from 'ng2-charts';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { PageHeaderModule } from './../../shared';
 
@@ -14,6 +15,7 @@ describe('ChartsComponent', () => {
     TestBed.configureTestingModule({
     imports: [
       RouterTestingModule,
+      BrowserAnimationsModule,
       Ng2Charts,
       PageHeaderModule
     ],

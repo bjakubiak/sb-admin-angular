@@ -1,5 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { PageHeaderModule } from './../../shared';
 import { FormComponent } from './form.component';
@@ -13,6 +14,7 @@ describe('FormComponent', () => {
     imports: [
       RouterTestingModule,
       PageHeaderModule,
+      BrowserAnimationsModule
     ],
       declarations: [ FormComponent ]
     })

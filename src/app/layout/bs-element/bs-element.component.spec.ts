@@ -1,5 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { PageHeaderModule } from './../../shared';
 
@@ -13,7 +14,8 @@ describe('BsElementComponent', () => {
     TestBed.configureTestingModule({
     imports: [
       RouterTestingModule,
-      PageHeaderModule
+      PageHeaderModule,
+      BrowserAnimationsModule
     ],
       declarations: [ BsElementComponent ]
     })
